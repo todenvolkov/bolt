@@ -1,0 +1,31 @@
+ <style type="text/css"> 
+
+ img { 	
+border: none; 
+}   
+
+
+
+div.container_switch {
+ position: relative; clear: both;
+}
+
+div.container_switch:after { display:table; content:''; clear: both; }
+
+a.switch_thumb { 	
+background: url(../img/switch.png) no-repeat;      
+display: block; 
+float: right;      	
+top:0px;   
+margin-right: 4px;
+right: 0px;  
+outline: medium none;       
+width: 59px;
+height:14px; 
+margin:3px 10px 0 0;
+} 
+a:hover.switch_thumb { 	
+filter:alpha(opacity=75); 	opacity:.75; 	
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; } 
+a.swap { background-position: left bottom; }   
+</style>

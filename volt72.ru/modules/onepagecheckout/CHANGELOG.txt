@@ -1,0 +1,116 @@
+2.0.5
+- fix: registered customer - use of another address, editing address already in use did not assigned correct reference to order
+- feature: validated for PS 1.4.5.
+
+2.0.4
+- fix: disabled possible double-click on Confirm order button
+- fix: default index file in module folder
+
+2.0.3
+- feature: hide payments when only one is available
+- fix: free order - wrong customer info, submitAccount wasn't triggered
+- feature: hide carriers when only one is available
+- fix: installation instructions
+
+2.0.2
+- fix: ePay relay mode support
+- feature: checkout form field capitalization - configurable
+- fix: ePay parsing when epay logo turned off (it failed on img.?src changed to img.*?src)
+- feature: added check for number in address - which notifies customer if he forgets to input house number
+
+2.0.1
+- fix: ePay and quickPay payment methods were unclickable (due to span tags in description)
+
+2.0.0 - final
+- fix/feature: payment method selection when only one method is available
+- fix: postcode inline validation for actual selected country, including revalidation when country changes
+- fix: object doesn't support this property or method internet explorer when info block wasn't displayed below cart
+- fix: last carrier checked (in order), not carrier really set in cart.
+- fix: translations of EN if other languages was set as default
+- fix: warning displayed when trying to get cookie property prior to initialization in onepagecheckout.php (get settings from ParentOrderController::init)
+
+2.0.0 - beta 4.3
+- fix: inline validation highlight on errors and already registered log-in (display green checks after)
+- fix: TOS verification didn't work on classic payment options display (non-radio buttons)
+- fix: problem with canonical redirect solved earlier, but this arose new (this) issue - unable to disable OPC module (always redirecting to modules/onepagecheckout/order-opc.php)
+- fix: scrolling position when fixed cart summary
+- fix: inline validation for animated fields (address change from "choose another address" combo)
+- fix: after using already registered block and then selecting invoice address result in filling it "temp" fields
+- fix: renamed SubmitLogin button ID (avoid conflict with other module - Block slide at the top - show account log-in and my-account links)
+- fix: login from Already registered section didn't work since PS 1.4.4 compatibility update
+- fix: width of floating cart summary in some themes (overflowed column)
+- fix/feature: html tags now supported in payment method description
+- feature: visual tuning - padding and height of payment methods images so it fits better
+- fix: scroll cart didn't work when ajax cart was disabled
+
+2.0.0 - beta 4.2
+- feature: Install check for force_smarty_v2 and also other OPC options required from standard PS
+- fix: parsing payment methods when CCC is on (it was different output, regexp had to change)
+- fix: #email field collision with other third party module
+- fix: double slash in address (.../nl//modules/onepagecheckout ...)
+- fix/feature: page now reloads when cart empty, to disable: page fading, fixed cart and info box.
+- fix: page_name overwritten in order-opc.js so that it complies with xhtml standard for element ID
+
+2.0.0 - beta 4.1
+- fix: JS inline compression turning off in installation script (safer solution)
+- fix: inline validation checkboxes refresh when checkout page is visited again
+- fix: fixed background image on confirm button and cart position when it's not static but absolute (some themes, e.g. blue-glossy)
+- fix/feature: CSS fixes - PS 1.4.4 compatibility update, page_name changed
+
+2.0.0 - beta 3
+- feature: info block can be moved below arbitrary element (not just cart_block)
+- fix: endless loop on PS 1.4.4 and redirect to cannonical URL
+- feature: added translations - CS, DE, FI, NL, PL, RO, RU, SK, SV
+- feature: translations created at installation for all active languages (not just default)
+- feature: added translations - ES, FR
+- fix/feature: PS 1.4.4 compatibility update - password box renamed to login_password
+
+2.0.0 - beta 2
+- fix/feature: PS 1.4.3 compatibility update - national accents in payment method descriptions, changed logo, issue with click on "Confirm my order" button.
+- fix/feature: VAT / DNI fields added to validation
+- feature: inline errors added in invoice address section
+- fix: ajax loader next to email field when field was empty mulfunctioned
+- feature: visual tuning - better effect on global loader when confirming payment
+- fix: VAT / DNI fields fill in when log-in through already registered section
+
+2.0.0 - beta 1
+- fix/feature: PS 1.4.2.5 compatibility update - statesManagement, address format
+- fix: vat number fill in when using "choose another address" combo
+
+2.0.0 - alpha
+- feature: display message (on-fly) when email is already registered and offer log-in
+- feature: ship2pay support with pre-prepared ship2pay module (in extras folder)
+- feature: sticky cart summary with opacity
+- feature: visual tuning - password box in already registered section
+- feature: offer password on top (new configuration option)
+- feature: visual tuning - info block
+- fix: carriers display for virtual cart
+- feature: page fading, including BO settings of opacity and duration
+- feature: BO - added possibility to user-change default group of payment methods displayed "right away" on checkout form
+- fix: "Address is invalid" when switching between countries
+- feature: Accept ToS reworked from message box to inline error
+- feature: Payment methods load even without ToS checked
+- feature: "Please choose payment method" reworked to inline error
+- feature: Inline validation icons and info block icons visual tuning
+- fix/feature: performance tunning (avoid multiple requests when not necessary), cross-theme style tunning, fadeIn effect tunning
+- feature: ajaxified vouchers
+- feature: special CSS fixes for liteblue and matrice themes
+- feature: sample values displayed next to checkout form fields
+- fix/feature: PS 1.4.1 compatibility update (init vs. setMedia controller methods)
+- feature: remember payment method choice (just order) when carrier is changing
+- feature: payment methods as radio buttons - regexp parsing of payment methods and display in uniform table
+- feature: page fading on checkout form
+- fix/feature: uniform module BO settings configuration
+- fix: keep delivery and invoice address aliases unchanged after first time
+- fix: updateState called twice (performance hit)
+- fix: display/hide registerme box and already registered box depending on isLogged status
+- fix: set customer info after log-in (so it can be pre-filled in checkout form)
+- fix/feature: animated invoice / delivery address - using "choose another address" combo
+- fix: EU VAT support
+- fix/feature: checkout form layout changes (removed buttons and brushed up fields)
+- fix: more spare "guess address" handling - keeps ID of address when country changes and address is only pre_Saved
+- fix/feature: simulated address to please delivery / payment blocks and to estimate taxes properly without creating account
+- feature: possibility to disable module seamlessly (only config variable read in ParentOrderController - needs to be overwritten)
+
+
+

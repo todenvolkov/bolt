@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>Csync</name>
+	<displayName><![CDATA[Синхронизация с 1С Управление Торговлей УТ11]]></displayName>
+	<version><![CDATA[1.0.6]]></version>
+	<description><![CDATA[Синхронизация товаров, цен и заказов с 1С 8.х]]></description>
+	<author><![CDATA[]]></author>
+	<tab><![CDATA[Tools]]></tab>
+	<confirmUninstall>Удаление модуля в дальнейшем сделает невозможным дифференциальную синхронизацию без проведения полной синхронизации, </confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

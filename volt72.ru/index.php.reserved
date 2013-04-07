@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>REG.RU &mdash; регистрация доменов у аккредитованного регистратора доменов RU / SU</title>
+<link href="i/favicon.ico" rel="shortcut icon" />
+<link href="css/site_navigation.css" rel="stylesheet" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="Архив новостей REG.RU" href="http://www.reg.ru/news/rss" />
+<link rel="search" type="application/opensearchdescription+xml" title="REG.RU WHOIS" href="http://reg.ru/js/reg.ru.domain.xml" />
+
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/site_navigation.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+	// Google Analytics
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-3380909-1']);
+	_gaq.push(['_setDomainName', 'reg.ru']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+/*]]>*/
+</script>
+
+</head>
+<body style="font-size: 12px;" class="notlogged">
+<!-- pleasewait indicator -->
+    <div style="border: 0; margin: 0;">
+	<div id="progress" class="progress" style="display: none; width: 300px; z-index: 101;">
+	    <div style="background-color: #efefef; border: 4px solid #bbc0c4; padding: 9px 45px 9px 45px;">
+		<table cellspacing="0" cellpadding="0">
+		  <tr>
+		    <td><img src="i/loading.gif" height="32" width="32" alt="Wait" />&nbsp;&nbsp;&nbsp;</td>
+		    <td><strong id="progress_text">Подождите, пожалуйста.<br />Идёт проверка...</strong></td>
+		  </tr>
+		</table>
+	    </div>
+	</div>
+    </div>
+<!-- /pleasewait indicator -->
+<!-- wrapper -->
+    <div id="wrapper">
+    <!-- topline -->
+	<div id="header_top">
+	    <div class="content-block">
+	    <!-- project menu -->
+		<div class="tl_menu_wrap float_right">
+		    <strong class="show_submenu" id="show_project_tl_menu">Проекты REG.RU</strong>
+		</div>
+		<div id="project_tl_menu" class="submenu_wrap">
+		    <div class="submenu_title_wrap">
+			<strong class="submenu_title">Проекты REG.RU</strong>
+		    </div>
+		    <div class="submenu_content">
+			<div class="regru_tl_project">
+			    <ul>
+				<li class="p_item_1">
+				    <div class="wrap">
+					<a href="http://simaphone.reg.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>SimaPhone 4 .РФ</strong>
+					    <em>
+						Компания REG.RU представляет специальную серию коммуникатора Apple iPhone&nbsp;4, посвященную домену .РФ, в&nbsp;ультрамодном дизайне от&nbsp;DENIS SIMACHЁV.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_6">
+				    <div class="wrap">
+					<a href="http://www.dubby.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Dubby.ru</strong>
+					    <em>
+						Мгновенное создание микросайта или микропортала, используя свои профили в&nbsp;социальных сетях и&nbsp;популярных сервисах на&nbsp;собственном домене.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_11">
+				    <div class="wrap">
+					<a href="http://domainergame.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Игра Домейнер</strong>
+					    <em>
+						Регистрация доменов может быть очень увлекательной. Попробуй свои силы в&nbsp;интерактивной онлайн игре&nbsp;&mdash; победи и&nbsp;получи сумасшедшие скидки на&nbsp;услуги.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<!-- li>
+				    <div class="wrap">
+					<a href="#">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Магазин сувениров</strong>
+					    <em>
+						Гаджеты, футболки, диски, книги и&nbsp;сувенирная продукция. Любишь Российский интернет? Тебе сюда!
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li -->
+				<li class="p_item_2">
+				    <div class="wrap">
+					<a href="http://www.reg.ru/domain/shop">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Магазин доменных имен</strong>
+					    <em>
+						Огромный выбор доменных имен. Покупка и&nbsp;продажа на&nbsp;удобной и&nbsp;безопасной площадке.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_7">
+				    <div class="wrap">
+					<a href="http://stat.reg.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Доменная статистика</strong>
+					    <em>
+						Самая актуальная и&nbsp;полная статистика по&nbsp;доменным именам в&nbsp;национальных зонах .RU&nbsp;/ .РФ&nbsp;/ .SU.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_12">
+				    <div class="wrap">
+					<a href="http://www.17-let.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>День рождения домена .RU</strong>
+					    <em>
+						Поздравительный сайт, посвященный дню рождения домена .RU. Поздравь любимый домен!
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_3">
+				    <div class="wrap">
+					<a href="http://software.reg.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>REG.Panel</strong>
+					    <em>
+						Готовый комплекс&nbsp;ПО для организации онлайн бизнеса по&nbsp;продаже доменных имен и&nbsp;хостинга
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_8">
+				    <div class="wrap">
+					<a href="http://www.ru-golos.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>RU-Голос</strong>
+					    <em>
+						Онлайн игра-голосование. Выбери лучший сайт в&nbsp;Российском интернете.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_13">
+				    <div class="wrap">
+					<a href="http://с-днем-рождения.рф/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>День рождения домена .РФ</strong>
+					    <em>
+						Поздравительный сайт посвященный дню рождения домена .РФ. Ура-ура, домену .РФ годик!
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_4">
+				    <div class="wrap">
+					<a href="http://nick.reg.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Имя в подарок</strong>
+					    <em>
+						Домен может стать прекрасным оригинальным подарком.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_9">
+				    <div class="wrap">
+					<a href="http://rf.reg.ru/logo" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Логотип домена .РФ</strong>
+					    <em>
+						Компания REG.RU разработала логотип и&nbsp;фирменный стиль бренда национального домена&nbsp;.РФ. Посмотреть и&nbsp;узнать больше можно на&nbsp;специальной странице.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_14">
+				    <div class="wrap">
+					<a href="http://www.reg.ru/media">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Медиагалерея</strong>
+					    <em>
+						Вирусные ролики, музыка и&nbsp;реклама компании REG.RU
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_5">
+				    <div class="wrap">
+					<a href="http://skidki.reg.ru/" rel="blank">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>SKIDKI.REG.RU</strong>
+					    <em>
+						Скидки клиентам REG.RU в&nbsp;ведущих компаниях и&nbsp;интернет-магазинах на&nbsp;товары и&nbsp;услуги!
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+				<li class="p_item_10">
+				    <div class="wrap">
+					<a href="http://www.reg.ru/service/mobile">
+					  <span class="border_wrap">
+					    <span class="project_icon"></span>
+					    <strong>Мобильный REG.RU</strong>
+					    <em>
+						Специальная версия сайта для мобильных телефонов и&nbsp;приложения для Apple iPhone/iPad и&nbsp;Android устройств.
+					    </em>
+					  </span>
+					</a>
+				    </div>
+				</li>
+			    </ul>
+			</div>
+		    </div>
+		</div>
+	    <!-- /project menu -->
+	    <!-- whois form -->
+		<form id="whois_dom_top" class="float_left" method="get" onsubmit="return validate_whois( 'whois_dom_top' )" action="http://www.reg.ru/whois/">
+		  <div class="whois_top_wrap">
+			<a href="http://www.reg.ru/whois/">Whois</a>
+			<input type="text" class="text" value="Whois" id="dmname" name="dname" />
+			<button id="dsubmit" type="submit">submit</button>
+		  </div>
+		</form>
+	    <!-- /whois form -->
+	    <!-- office menu -->
+		<div class="tl_menu_wrap float_left">
+		    <strong class="show_submenu" id="show_contacts_tl_menu">
+			<span class="grey">Россия:</span> 8-800-555-34-78
+		    </strong>
+		</div>
+		<div id="contacts_tl_menu" class="submenu_wrap">
+		    <div class="submenu_title_wrap">
+			<strong class="submenu_title">
+			    <span class="grey">Россия:</span> 8-800-555-34-78
+			</strong>
+		    </div>
+		    <div class="submenu_content">
+			<div class="country_column">
+			    <strong>Офисы в России</strong>
+			    <ul>
+				<li><a href="http://www.reg.ru/company/contacts/moscow" rel="blank">
+				  <span class="border_wrap">Москва</span>
+				</a></li>
+				<li><a href="http://www.reg.ru/company/contacts/piter" rel="blank">
+				  <span class="border_wrap">Санкт-Петербург</span>
+				</a></li>
+				<li><a href="http://www.reg.ru/company/contacts/samara" rel="blank">
+				  <span class="border_wrap">Самара</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/kaliningrad" rel="blank">
+				  <span class="border_wrap">Калининград</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/novosibirsk" rel="blank">
+				  <span class="border_wrap">Новосибирск</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/ufa" rel="blank">
+				  <span class="border_wrap">Уфа</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/chelyabinsk" rel="blank">
+				  <span class="border_wrap">Челябинск</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/ekaterinburg" rel="blank">
+				  <span class="border_wrap">Екатеринбург</span>
+				</a></li>
+				 <li><a href="http://www.reg.ru/company/contacts/rostov" rel="blank">
+				  <span class="border_wrap">Ростов-на-Дону</span>
+				</a></li>
+			    </ul>
+			</div>
+			<div class="country_column">
+			    <strong>Офис в Украине</strong>
+			    <ul>
+				<li><a href="http://www.reg.ru/company/contacts/kiev#schema" rel="blank">
+				  <span class="border_wrap">Киев</span>
+				</a></li>
+			    </ul>
+			</div>
+			<p class="contact_us">
+			    Хотите открыть<br />представительство<br />REG.RU в своем<br />городе?<br />
+			    <a href="http://www.reg.ru/company/contacts/moscow" rel="blank">Свяжитесь с нами</a>
+			</p>
+		    </div>
+		</div>
+	    <!-- /office menu -->
+	    </div>
+	</div>
+    <!-- /topline -->
+    <!-- header -->
+	<div id="header">
+	    <div class="content-block">
+	    <!-- logo -->
+		<a id="regru-logo" href="http://www.reg.ru" title="ООО «Регистратор доменных имен РЕГ.РУ»">
+		    <img src="i/regru.png" alt="reg.ru" title="ООО «Регистратор доменных имен РЕГ.РУ»" />
+		</a>
+	    <!-- /logo -->
+	    <!-- regru description -->
+		<div id="regru-description">
+		    <ul>
+			<li><strong>Крупнейший аккредитованный регистратор доменных имен в РФ</strong></li>
+			<li>Соглашение №1 об Аккредитации в национальных доменах .RU / .РФ</li>
+			<li>Регистрация доменов в более чем 180 зонах</li>
+		    </ul>
+		</div>
+	    <!-- /regru description -->
+	    </div>
+	</div>
+    <!-- /header -->
+    <!-- wrapper-content -->
+	<div id="wrapper-content">
+	    <div class="content-block">
+	    <!-- content -->
+	      <div id="content" class="without_sidebar">
+				<div class="content-floated-wrapper">
+			<!-- PARKING -->
+					<div id="parking">
+						<img src="i/parked.png" alt="Сайт надежно припаркован" class="parking_logo" />
+						<div class="over_hidden">
+							<div class="left_side">
+								<h3 class="rust">Сайт активирован и будет доступен после загрузки файлов на сервер.</h3>
+								<strong>Владельцу данного ресурса:</strong>
+								<ul class="markercheckbox">
+									<li><a href="http://www.reg.ru/support/help/#!hosting|how_to_place_site" rel="blank">Как размещать информацию на хостинге</a></li>
+									<li><a href="http://www.reg.ru/support/help/#!hosting" rel="blank">FAQ по хостингу</a></li>
+								</ul>
+								<strong>Не нашли ответов? К вашим услугам по настройке хостинга:</strong>
+								<ul class="markercheckbox">
+									<li>Служба технической поддержки хостинга: +7 (495) 739-43-10</li>
+									<li>Тикет-система: <a href="http://www.reg.ru/support/ticket" rel="blank" class="button-18 button-ticket"><b>Reg.Ticket</b></a></li>
+									<li>E-mail: <a href="mailto:hosting@support.reg.ru?subject=">hosting@support.reg.ru</a></li>
+								</ul>
+							</div>
+							<div class="right_side">
+								<h3 class="rust">Вход в панель управления хостингом</h3>
+								<form method="post" action="http://volt72.ru/manager/ispmgr">
+								 <table>
+								  <tr>
+								   <td>
+									<label for="login">Имя пользователя:</label>
+								   </td>
+								   <td>
+									<input type="text" name="username" id="login" class="double_border" />
+								   </td>
+								  </tr>
+								  <tr>
+								   <td>
+									<label for="pass">Пароль:</label>
+								   </td>
+								   <td>
+									<input type="password" name="password" id="pass" class="double_border" />
+								   </td>
+								  </tr>
+								  <tr>
+								   <td>
+									<label for="face-lang">Язык интерфейса:</label>
+								   </td>
+								   <td>
+									<select id="face-lang" name="lang" class="double_border">
+									 <option value="ru" selected="selected">Русский</option>
+									 <option value="en">Английский</option>
+									</select>
+								   </td>
+								  </tr>
+								  <tr>
+								   <td>
+									<a href="http://www.reg.ru/support/help/#!hosting|how_to_recover_pass">Забыли пароль?</a>
+								   </td>
+								   <td>
+									<input type="hidden" name="theme" value="sirius" />
+									<input type="hidden" name="checkcookie" value="no" />
+									<input type="hidden" name="func" value="auth" />
+									<input type="image" name="button" id="button" src="i/enter-ru.png" />
+								   </td>
+								  </tr>
+								 </table>
+								</form>
+							</div>
+						</div>
+					</div> 
+			<!-- / PARKING -->
+				</div>
+	      </div>
+	    <!-- / content -->
+	      <div class="clear_float"></div>
+	    </div>
+	</div>
+    <!-- /wrapper-content  -->
+    <!-- footer -->
+	<div id="footer">
+	    <div class="content-block">
+	    <!-- left Side -->
+		<div class="left_side">
+		    <div class="info_wrap">
+			<strong>ИНФОРМАЦИЯ</strong>
+			<ul>
+			    <li><a href="http://www.reg.ru/retail/index">Для розничных Клиентов</a></li>
+			    <li><a href="http://www.reg.ru/reseller/index">Для Партнеров</a></li>
+			    <li><a href="http://www.reg.ru/for_professionals">Для Профессионалов</a></li>
+			    <li><a href="http://www.reg.ru/retail/documents">Договоры и письма</a></li>
+			    <li><a href="http://software.reg.ru" rel="blank">REG.Panel</a></li>
+			    <li><a href="http://www.reg.ru/reseller/API-tech">REG.API: v1</a></li>
+			    <li><a href="http://www.reg.ru/reseller/API2-tech">REG.API: v2</a></li>
+			    <li><a href="http://www.reg.ru/help/index">Инструкции и FAQ</a></li>
+			</ul>
+		    </div>
+		    <div class="services_wrap">
+			<strong>УСЛУГИ REG.RU</strong>
+			<ul class="float_left">
+			    <li><a href="http://www.reg.ru/newdomain/">Зарегистрировать домен</a></li>
+			    <li><a href="http://hosting.reg.ru/">Хостинг сайтов</a></li>
+			    <li><a href="http://hosting.reg.ru/vps/">Виртуальные серверы VPS</a></li>
+			    <li><a href="http://hosting.reg.ru/dedicated/">Физические серверы Dedicated</a></li>
+			    <li><a href="http://www.reg.ru/sslcertificate">SSL-сертификаты Thawte</a></li>
+			    <li><a href="http://www.reg.ru/newdomain/bulk">Оптовая регистрация</a></li>
+			    <li><a href="http://www.reg.ru/newdomain/choose">Подобрать домен</a></li>
+			    <li><a href="http://www.reg.ru/domain/transfer">Перенести домен</a></li>
+			    <li><a href="http://www.reg.ru/newdomain/rereg">Освобождающиеся домены</a></li>
+			    <li><a href="http://www.reg.ru/newdomain/freeing_domains">Освобождённые домены</a></li>
+			</ul>
+			<ul class="float_right">
+			    <li><a href="http://www.reg.ru/newdomain/suggest-variants">Премиум-домены</a></li>
+			    <li><a href="http://www.reg.ru/whois/">Whois РФ / RU и др.</a></li>
+			    <li><a href="http://www.reg.ru/service/get_wm_att">Получить WM-аттестат</a></li>
+			    <li><a href="http://www.reg.ru/service/guarantee">Гарант сделки по домену</a></li>
+			    <li><a href="http://www.reg.ru/help/jservice">Юридические услуги</a></li>
+			    <li><a href="http://www.reg.ru/service/sms">SMS-сервисы</a></li>
+			    <li><a href="http://www.reg.ru/user/affiliate/promo">Реферальная программа</a></li>
+			    <li><a href="http://www.reg.ru/prices/index">Стоимость услуг</a></li>
+			</ul>
+		    </div>
+		</div>
+	    <!-- end left Side -->
+	    <!-- right Side -->
+		<div class="right_side">
+		    <strong>REG.RU В ПОПУЛЯРНЫХ СЕРВИСАХ</strong>
+		    <div class="socials_wrap">
+			<a href="http://www.youtube.com/user/regruvideo" class="youtube" title="" rel="blank">&nbsp;</a>
+			<a href="http://habrahabr.ru/company/regru/blog/" class="habrahabr" title="" rel="blank">&nbsp;</a>
+			<a href="http://vkontakte.ru/club16725543" class="vkontakte" title="" rel="blank">&nbsp;</a>
+			<a href="http://www.facebook.com/pages/Registracia-domenov-hosting-VPS-ot-kompanii-Regru/104499519617024" class="facebook" title="" rel="blank">&nbsp;</a>
+			<a href="http://twitter.com/#!/regru" class="twitter" title="" rel="blank">&nbsp;</a>
+			<a href="http://professionali.ru/GroupInfo/11026" class="professionali" rel="blank">&nbsp;</a>
+			<a href="https://plus.google.com/115248731117668605566?prsrc=3" class="gplus" rel="publisher">&nbsp;</a>
+			<a href="http://futubra.com/16871" class="futubra" rel="blank">&nbsp;</a>
+		    </div>
+		    <p>Все права на&nbsp;материалы, находящиеся на&nbsp;сайте, охраняются в&nbsp;соответствии с&nbsp;законодательством РФ.
+		    При&nbsp;любом использовании материалов сайта, письменное согласие обязательно.
+		    Торговые марки, логотипы и&nbsp;марки услуг, размещенные на&nbsp;данном сайте, являются собственностью
+		    ООО &laquo;Регистратор доменных имен РЕГ.РУ&raquo; или третьих лиц.</p>
+		    <a href="#" class="cetis_logo">
+			<span>cetis</span>Разработка концепции и создание сайта<br />брендинговое агентство  &laquo;ЦЭТИС&raquo;
+		    </a>
+		</div>
+	    <!-- end right Side -->
+	    </div>
+	</div>
+    <!-- /footer -->
+    </div>
+<!-- /wrapper -->
+</body>
+</html>

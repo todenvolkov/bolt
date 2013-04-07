@@ -1,0 +1,1 @@
+[10-Jun-2012 10:39:55] PHP Fatal error:  Call to undefined method BlockUserInfo::hookTop() in /home/baltov/public_html/ilovepresta.ru/akvaterm/modules/onepagecheckout/OrderOpcktController.php on line 362

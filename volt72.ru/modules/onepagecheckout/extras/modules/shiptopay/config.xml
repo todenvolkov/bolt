@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>shiptopay</name>
+	<displayName>Ship to Pay</displayName>
+	<version>1</version>
+	<description>Module that matches shippment to payment for PrestaShop 1.4</description>
+	<author></author>
+	<tab>Payment</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

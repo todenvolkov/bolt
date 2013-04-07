@@ -1,0 +1,95 @@
+/* Block categories */
+#categories_block_left .tree {  padding-left: 0px }
+#categories_block_left .tree li {
+	border: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	background: none;
+	margin-left: 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 13px;
+    /*background: url('../../../img/squere.png') no-repeat 5px 11px; */
+    color: #0071b7;
+}
+
+/*
+#categories_block_left .tree li:hover {
+padding: 3px 3px 3px 10px;
+box-shadow: 0 0 11px #9B9A9A;
+width: 207px;
+
+}
+*/
+
+#categories_block_left .tree li.last { padding-bottom: 0 }
+#categories_block_left .tree ul { padding-left:15px; }
+
+#categories_block_left .tree li li {
+     background: none;
+}
+/**/
+#categories_block_left .tree li  {
+	background: none;
+	/*font-size: 12px;*/
+    line-height: 13px;
+    /*background: url('../../../img/squere.png') no-repeat 5px 11px;*/ 
+	font-weight: normal;
+	/*width: 170px;*/
+}
+#categories_block_left .tree li.last { padding-bottom: 0 }
+
+#categories_block_left .tree a {
+    color: #0071B7;
+    display: block;
+    font-family: Calibri;
+    margin: 0 0 0 6px;
+    padding: 1px 3px;
+}
+#categories_block_left .tree li ul li a {
+	color: #626160;
+}
+#categories_block_left .tree li ul li a:hover {
+	color: green;
+    text-decoration: underline;
+}
+#categories_block_left .tree > li > div > a { color: green; }
+#categories_block_left .tree a:hover { text-decoration: none }
+#categories_block_left ul.tree a.selected {
+	color: #000;
+	font-weight: normal;
+}
+#categories_block_left span.grower {
+	display: block;
+	float: left;
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
+	margin: 5 0 0 -15px!important;
+	margin: 0 0 0 -8px;
+	padding: 0;
+	/*background-color:#ccc;*/
+}
+
+
+div.blockcategories_footer h4{ background:url('../../../img/block_footer_page.gif') repeat-x scroll left top;text-align:center;}
+div.blockcategories_footer { background:url('../../../img/block_footer_page_footer.png') repeat-x scroll left bottom #bdc2c9;padding-bottom:5px}
+div.blockcategories_footer h4 a{color:#ffffff;font-weight:normal;text-decoration:none}
+div.blockcategories_footer .category_footer{ background-image:url('../../../img/block_bg.jpg');}
+div.category_footer{ background:none;text-align:center;border:none; }
+
+#footer div.category_footer h4 a{color: #666666;}
+#footer div.category_footer .list{float:left;}
+#footer div.category_footer .list  ul.tree li{background:none;border-left:none;}
+
+#footer .footer_logo{float: left;width: 188px;}
+.tree > #root div { border:1px solid rgba(0,0,0,0);
+    text-decoration: none;
+}
+.tree > #root div:hover  {
+    background-image: none;
+
+    color: green;
+    text-decoration: underline;
+}

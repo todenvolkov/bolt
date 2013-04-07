@@ -1,0 +1,38 @@
+.list_ship{
+list-style-type:none;
+}
+
+.list_ship li{
+padding:5px;background:#ccc;margin:2px;padding:3px;
+cursor:pointer;
+}
+.ship_container{
+float:left;border:1px solid #333;width:48%;background:#f0f0f0;padding:5px;margin:3px;
+}
+.pay_container{
+float:left;border:1px solid #333;width:48%;background:#f0f0f0;padding:5px;margin:3px;
+}
+.pay_container ul{
+list-style-type:none;
+}
+.pay_container option,.ship_container option{
+margin:1px;
+padding:2px;
+
+}
+.pay_chosen_content{
+width:50%;
+background:#fff;
+border:1px solid #333;
+display:none;
+}
+.listashiptopay{
+list-style-type:none;
+border:1px solid #333;
+}
+.listashiptopay li{
+margin:2px;
+padding:2px;
+
+
+}

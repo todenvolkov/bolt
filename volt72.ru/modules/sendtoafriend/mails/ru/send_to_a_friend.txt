@@ -1,0 +1,9 @@
+Здравствуйте {name},
+
+
+{customer} отправил вам ссылку на товар, возможно это Вас заинтересует.
+
+{product}: {product_link}
+
+
+{shop_name} - {shop_url}

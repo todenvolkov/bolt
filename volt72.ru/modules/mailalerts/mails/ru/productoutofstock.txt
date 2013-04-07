@@ -1,0 +1,11 @@
+Здравствуйте,
+
+Товар {product} закончился.
+Indeed, the breaking out of stock of {last_qty} has been exceeded.
+Remaining stock : {qty}
+
+You are advised to open the product's admin Product Page in order to replenish your inventory.
+
+
+
+{shop_url}

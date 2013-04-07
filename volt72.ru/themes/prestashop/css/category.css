@@ -1,0 +1,48 @@
+/* category.tpl */
+body#category #subcategories ul.inline_list{ margin-left: -20px}
+
+body#category #subcategories li { float: left;
+    margin: 4px; /* 2 */
+      width: 183px;
+      height: 261px;
+      margin-left: 25px; /* 31 */
+      margin-bottom: 27px;
+      padding: 16px;
+      background: white; }
+	  
+body#category #subcategories li:hover {
+     box-shadow: none;
+}
+
+div.cat_desc { margin: 0 5px; }
+body#category div#subcategories .inline_list a img { display: inline }
+#category img#categoryImage { margin-top: 1em }
+
+body#category #subcategories li h5 {
+	text-align: center;
+	display: block;
+      padding: 0px!important;
+      margin: 0px!important;
+      height: 43px; 
+      line-height: 14px;
+     
+}
+body#category #subcategories li h5 a {
+	color: green;
+	font-size: 14px;
+     font-family: Trebuchet MS;
+     line-height: 14px;
+     font-weight: normal;
+     text-decoration: none; 
+}
+body#category #subcategories li h5 a:hover {
+   text-decoration: none;	
+      
+}
+body#category #subcategories li a.product_image {
+	display: block;
+	background-color: transparent;
+	margin: 0px auto 16px auto;
+	width: 182px;
+	height: 170px 
+}

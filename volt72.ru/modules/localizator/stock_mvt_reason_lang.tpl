@@ -1,0 +1,1 @@
+{l s='Increase' mod='localizator'}{l s='Decrease' mod='localizator'}{l s='Order' mod='localizator'}{l s='Missing Stock Movement' mod='localizator'}{l s='Restocking' mod='localizator'}

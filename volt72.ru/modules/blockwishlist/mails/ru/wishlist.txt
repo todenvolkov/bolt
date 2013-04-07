@@ -1,0 +1,8 @@
+Здравствуйте,
+
+{firstname} {lastname} отправляет Вам свой список желаний {wishlist} :
+{message}
+
+
+
+{shop_url}

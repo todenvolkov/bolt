@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>homefeaturez</name>
+	<displayName><![CDATA[Featured Products on the homepage]]></displayName>
+	<version><![CDATA[2.0.1]]></version>
+	<description><![CDATA[Displays Featured Products in the middle of your homepage. In this version you will found two new options: you can turn on/off the showing random products and select the category, witch products will show on the homepage.]]></description>
+	<author><![CDATA[zapalm]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/volt72.ru/webstat"
+AuthUserFile /var/www/u5565207/data/etc/1314895.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

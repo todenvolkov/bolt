@@ -1,0 +1,234 @@
+.tooltip {
+        color: #000;/*position: absolute;top:0;left:0;width:100%;*/height:30px;box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+        -webkit-box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+        -moz-box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+	text-align: center;
+	margin: 5px 20px;
+    	padding: 2px;
+	display:none;
+}
+.tooltip div{margin:10px 5px;}
+.tooltip a.x {display:block;width: 20px; float: right;text-decoration: none;cursor:pointer;}
+.tooltip a.x:hover {font-weight: bold;}
+.classic {background: #ffa;border-bottom: 1px solid #f80;}
+
+
+#tfoot_static {
+    z-index: 11;
+}
+
+#tfoot_static.floating-summary td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 99.9%;
+}
+
+div#tfoot_static_underlay {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: -moz-use-text-color #999999 #999999;
+    border: 1px solid #999999;
+    border-top: 0px;
+    display: none;
+    filter:alpha(opacity=92); 
+    opacity: 0.92; 
+    -moz-opacity: 0.92;
+    position: fixed;
+    top: 0;
+    width: 541px;
+    z-index: 10;
+}
+
+div#opc_info_block a#toggle_link {
+    font-family: courier;
+    margin-right: 7px;
+}
+
+
+div#opc_info_block h5 {
+    text-decoration: underline;
+}
+
+div#opc_info_block p {
+    padding: 3px 0 5px;
+}
+
+div#opc_info_block {
+/*    padding-top: 10px;*/
+    display: none; /* hidden by default, slideDown() when visiting OPC page */
+    opacity: 0.4;
+}
+div#opc_info_block .block_content {
+    padding-top: 10px;
+}
+
+#page span.valid_ok {
+    background: url(../img/field_success.png) no-repeat left;
+}
+
+#page span.valid_nok {
+    background: url(../img/field_error.png) no-repeat left;
+}
+
+#page span.valid_warn {
+    background: url(../img/field_warn.png) no-repeat left;
+}
+
+#page span.valid_loading {
+    background: url(../img/field_loader.gif) no-repeat left;
+}
+
+#page span.valid_blank {
+    background: none;
+}
+
+#page span.validity {
+    font-size: 16px;
+    /*height: 16px;*/
+    padding-left: 16px;
+    margin-left: 2px;
+    float: none;
+}
+
+
+#page input.error_field, #page select.error_field, #page textarea.error_field{
+    border: 1px solid red !important;
+}
+
+#page input.ok_field, #page select.ok_field, #page textarea.ok_field{
+    border: 1px solid green !important;
+}
+
+#opc_new_account span.sample_text, #opc_new_account span.sample_text span, #offer_password span.sample_text, #offer_password span.sample_text span {
+    float: none;
+    width: auto;
+    text-align: left;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#opc_new_account span.ex_blur, #offer_password span.ex_blur {
+    color: #ddd;
+}
+
+#opc_new_account span.ex_focus, #offer_password span.ex_focus {
+    color: #333;
+}
+
+#page #login_form a {
+    text-decoration: underline; /* Highlight click here. link */
+}
+
+#page #login_form a:hover {
+    text-decoration: none; /* Highlight click here. link */
+}
+
+#paymentMethodsTable td {
+    padding: 0.1em 0.5em;
+}
+#paymentMethodsTable img {
+    height: 30px;
+    padding: 2px 0px;
+}
+
+div.confirm_button_div {
+    text-align: center;
+}
+
+input.confirm_button, #free_order_confirm {
+    display: block;
+    background-color: #660a18;
+    background-image: none;
+    border: 2px solid white;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    color: white;
+    font-weight: bold;
+/*    height: 40px; */
+    padding: 14px 0px;
+    text-align: center;
+    margin: 10px auto;
+    width: 45%;
+    font-size: 13px;
+}
+
+input.confirm_button:hover, #free_order_confirm:hover {
+    background-color: #93af00;
+    cursor: pointer;
+}
+
+table#carrierTable label {
+    float: none;
+    text-align: left;
+    width: 100%;
+}
+
+div#opc_payment_methods-content p {
+    
+}
+
+
+#page .opc_status {
+	border: 1px solid #d0d3d8;
+	background: #D0D1D5 url('../img/form_bg.jpg') repeat-x top left;
+	font-size: 12px;
+}
+
+.opc_float {
+	float:left;
+	width: 49%;
+}
+
+.opc_float_status {
+	float: left;
+	width: 45%;
+	padding: 10px;
+}
+
+#page #login_form {
+	width: 100%;
+	clear: none;
+} 
+
+#page #login_form p.text {
+	margin-left: 0em;
+	padding-left: 0;
+	padding-right: 0;
+        height: 1.6em;
+}
+
+#page #login_form a { color: #374853 }
+#page input#SubmitLogin { margin: 0; }
+#page #login_form p.submit {
+	margin-right: 0;
+	text-align: left;
+	padding-left: 31% !important;
+        margin-bottom: 0;
+}
+#page p.lost_password { padding-left: 1em; font-size: 0.9em; }
+#page p.submit span { padding-right: 0.5em }
+#page #login_form label {
+        width: 30%;
+        float: left;
+        clear: none;
+        text-align: right;
+}
+
+#page textarea#message { width: 95%; }
+
+#page sup { color: red; }
+
+#page div.opc-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url('../img/ajax-loader.gif') #666 no-repeat center center;
+	opacity: 0.7;
+	filter : alpha(opacity=70); /* IE < 8 */
+	-moz-opacity : 0.7; 
+    -ms-filter: "alpha(opacity=70)"; /* IE 8 */
+	z-index: 99;
+}
+
+#page div.opc-main-block { position: relative }
